@@ -11,7 +11,18 @@
     
 <?php
 
-This is my php test
+$a=10;
+$b = 12;
+
+if ($a > $b){
+        echo "A Small";
+
+} else {
+
+    echo "B big";
+}
+
+
 
 ?>
 
