@@ -11,11 +11,21 @@
     
 <?php
 
-$a = 10;
-$a = $a -4;
-++$a;
+// $a = 10;
+// $a = $a -4;
+// ++$a;
 
-echo $a;
+// echo $a;
+
+
+$a = 465;
+$b = 564;
+$c = 987;
+
+
+if($a > $b) {
+    echo 'B bigger';
+} else { echo'b bigger';}
 
 
 
