@@ -23,9 +23,17 @@ $b = 564;
 $c = 987;
 
 
-if($a > $b) {
-    echo 'B bigger';
-} else { echo'b bigger';}
+// if($a > $b) {
+//     if ($a > $c){ 
+//             echo 'C is bigger';
+//     }
+//  }
+
+
+
+ if ($a > $b && $a > $c){
+    echo 'C is bigger';
+ }
 
 
 
