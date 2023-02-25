@@ -9,5 +9,11 @@
 </head>
 <body>
     
+<?php
+
+This is my php test
+
+?>
+
 </body>
 </html>
