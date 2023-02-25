@@ -11,16 +11,11 @@
     
 <?php
 
-$a=10;
-$b = 12;
+$a = 10;
+$a = $a -4;
+++$a;
 
-if ($a > $b){
-        echo "A Small";
-
-} else {
-
-    echo "B big";
-}
+echo $a;
 
 
 
