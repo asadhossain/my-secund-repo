@@ -10,7 +10,7 @@
 <body>
     
 <?php
-$marks = 30;
+$marks = 111;
 
 if ($marks >= 80 && $marks <= 100 ){
     echo "Congratulation You Got A+ Grade Point 5.00";
@@ -24,8 +24,10 @@ if ($marks >= 80 && $marks <= 100 ){
     echo  "You Got C Grade Point 2.00";
 } elseif ( $marks >= 33 && $marks <= 39){
     echo "You Got D Grade Point 1.00";
-} else ($marks >=0 && $marks <=32 ){
+} elseif ($marks >=0 && $marks <=32 ){
     echo "I'm Sorry your mark is Fail.";
+} else {
+    echo "invalid output";
 }
 
 ?>
