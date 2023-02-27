@@ -18,22 +18,23 @@
 // echo $a;
 
 
-$a = 465;
-$b = 564;
-$c = 987;
+$a = 10;
+$b = 20;
+$c = 30;
 
 
-// if($a > $b) {
-//     if ($a > $c){ 
-//             echo 'C is bigger';
-//     }
-//  }
-
-
-
- if ($a > $b && $a > $c){
-    echo 'C is bigger';
+if($a < $b) {
+    echo "b is bigger";
+    if ($a > $c){ 
+            echo 'C is bigger';
+    }
  }
+
+
+
+//  if ($a < $b && $a < $c){
+//     echo 'C is bigger';
+//  }
 
 
 
